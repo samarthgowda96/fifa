@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="image">
+        <img src="{{ url_for('static', filename='football1.jpg') }}" style="height:500px; width: fit-content;" class="img-fluid" alt="Responsive image">
+    </div>
+    <br>
+    <div class="title">
+        <h1>2014 FIFA World Cup Points Table</h1>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">NAME</th>
+                <th scope="col">WON</th>
+                <th scope="col">LOST</th>
+                <th scope="col">DRAWN</th>
+                <th scope="col">POINTS</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+
+            <tr>
+                <td scope="row"> {{ item.ID }} </td>
+                <td scope="row"> {{ item.name }} </td>
+                <td scope="row"> {{ item.won }} </td>
+                <td scope="row"> {{ item.lost }} </td>
+                <td scope="row"> {{ item.drawn }} </td>
+                <td scope="row"> {{ item.points }} </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <style>
+        .table {
+            background-color: darkgoldenrod;
+            border: 1px solid black;
+        }
+        
+        .image {
+            border: 2px solid brown;
+        }
+        
+        .title {
+            font-family: Helvetica, sans-serif;
+            font-size: large;
+            text-align: center;
+            text-shadow: black;
+            font-weight: 600;
+            color: #CF2212;
+        }
+        
+        body {
+            background-color: #56c4f1;
+        }
+    </style>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+{
+    "name": "football world Cup 2014",
+    "teams": [{
+            "ID": "1",
+            "name": "Brazil ",
+            "won": "2",
+            "lost": "0",
+            "drawn": "1",
+            "points": "7"
+        },
+        {
+            "ID": "2",
+            "name": "Mexico",
+            "won": "2",
+            "lost": "0",
+            "drawn": "1",
+            "points": "7"
+        },
+        {
+            "ID": "3",
+            "name": "Croatia ",
+            "won": "1",
+            "lost": "2",
+            "drawn": "0",
+            "points": "3"
+        },
+        {
+            "ID": "4",
+            "name": "Cameroon",
+            "won": "0",
+            "lost": "3",
+            "drawn": "0",
+            "points": "0"
+        },
+        {
+            "ID": "5",
+            "name": "Netherlands ",
+            "won": "3",
+            "lost": "0",
+            "drawn": "0",
+            "points": "9"
+        },
+        {
+            "ID": "6",
+            "name": "Chile ",
+            "won": "2",
+            "lost": "1",
+            "drawn": "0",
+            "points": "6"
+        },
+        {
+            "ID": "7",
+            "name": "Spain ",
+            "won": "1",
+            "lost": "2",
+            "drawn": "0",
+            "points": "3"
+        },
+        {
+            "ID": "8",
+            "name": "Australia",
+            "won": "0",
+            "lost": "3",
+            "drawn": "0",
+            "points": "0"
+        },
+        {
+            "ID": "9",
+            "name": "colombia ",
+            "won": "3",
+            "lost": "0",
+            "drawn": "0",
+            "points": "9"
+        },
+        {
+            "ID": "10",
+            "name": "Greece ",
+            "won": "1",
+            "lost": "1",
+            "drawn": "1",
+            "points": "4"
+        },
+        {
+            "ID": "11",
+            "name": "Côte d'Ivoire",
+            "won": "1",
+            "lost": "2",
+            "drawn": "0",
+            "points": "3"
+        },
+        {
+            "ID": "12",
+            "name": "Japan",
+            "won": "0",
+            "lost": "2",
+            "drawn": "1",
+            "points": "1"
+        },
+        {
+            "ID": "13",
+            "name": "Costa Rica ",
+            "won": "2",
+            "lost": "0",
+            "drawn": "1",
+            "points": "7"
+        },
+        {
+            "ID": "14",
+            "name": "Uruguay",
+            "won": "2",
+            "lost": "1",
+            "drawn": "0",
+            "points": "6"
+        },
+        {
+            "ID": "15",
+            "name": "Italy ",
+            "won": "1",
+            "lost": "2",
+            "drawn": "0",
+            "points": "3"
+        },
+        {
+            "ID": "16",
+            "name": "England ",
+            "won": "0",
+            "lost": "2",
+            "drawn": "1",
+            "points": "1"
+        },
+        {
+            "ID": "17",
+            "name": "France",
+            "won": "2",
+            "lost": "0",
+            "drawn": "1",
+            "points": "7"
+        },
+        {
+            "ID": "18",
+            "name": "Switzerland ",
+            "won": "2",
+            "lost": "1",
+            "drawn": "0",
+            "points": "6"
+        },
+        {
+            "ID": "19",
+            "name": "Argentina ",
+            "won": "3",
+            "lost": "0",
+            "drawn": "0",
+            "points": "9"
+        },
+        {
+            "ID": "20",
+            "name": "Germany ",
+            "won": "2",
+            "lost": "0",
+            "drawn": "1",
+            "points": "7"
+        }
+    ]
+}
